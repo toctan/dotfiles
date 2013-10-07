@@ -1,0 +1,9 @@
+[user]
+  name = toctan
+  email = tianjin.sc@gmail.com
+[color]
+  ui = auto
+[alias]
+  root = !pwd
+[core]
+  excludesfile = ~/.gitignore
