@@ -41,7 +41,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git archlinux systemd gem heroku bundler rvm rails spring github
-    extract colored-man command-not-found autojump tmux)
+    extract colored-man command-not-found z tmux)
 
 source $ZSH/oh-my-zsh.sh
 
