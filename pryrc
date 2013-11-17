@@ -1,4 +1,4 @@
-# Steal from https://github.com/skwp/dotfiles/blob/master/irb/pryr
+# Steal from https://github.com/skwp/dotfiles/blob/master/irb/pryrc
 
 # Editor
 Pry.editor = ENV['EDITOR']
@@ -77,6 +77,10 @@ class Hash
     Hash[Array.toy(n).zip(Array.toy(n) { |c| ( 96 + (c + 1)).chr })]
   end
 end
+
+
+# Rails
+include FactoryGirl::Syntax::Methods if defined? FactoryGirl
 
 # Color Customization
 # Everything below this line is for customizing colors,
