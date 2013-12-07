@@ -1,0 +1,2 @@
+# Ctrl-R to backward search on OS X
+bind "^R" em-inc-search-prev
