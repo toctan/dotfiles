@@ -1,13 +1,7 @@
 [color]
   ui = auto
-[alias]
-  root = !pwd
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore
 [include]
   path = .gitconfig.local
-[branch]
-  autosetuprebase = always
-[push]
-  default = simple

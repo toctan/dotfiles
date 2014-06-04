@@ -1,2 +1,12 @@
+AllCops:
+  Include:
+    - '**/config.ru'
+  Exclude:
+    - '**/db/**/*'
+    - '**/config/**/*'
+    - '**/script/**/*'
+    - '**/vendor/**/*'
+#  RunRailsCops: true
+
 Documentation:
   Enabled: false
